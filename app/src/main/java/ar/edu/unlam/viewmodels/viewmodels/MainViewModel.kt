@@ -20,9 +20,9 @@ class MainViewModel(initialQuantity: Int) : ViewModel() {
         viewModelScope.launch {
             val current = clicksAmount.value
             if (current != null) {
-                    val next = current + 1
-                    delay(3000L)
-                    clicksAmount.value = next
+                val next = current + 1
+                delay(3000L)
+                clicksAmount.value = next
             }
         }
     }

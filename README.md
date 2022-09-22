@@ -1,2 +1,5 @@
-# viewmodel-example
-Ejemplo de app mobile con view model
+# Coroutines Example
+
+Ejemplo simple de una aplicación que implementa co rutinas.
+
+Coroutines: https://developer.android.com/kotlin/coroutines
